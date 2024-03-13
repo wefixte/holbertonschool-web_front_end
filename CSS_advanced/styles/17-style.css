@@ -92,6 +92,10 @@ a:active {
 }
 
 /********** SECTIONS **********/
+.section {
+	padding: var(--section-padding);
+}
+
 .section-header {
 	text-align: var(--section-header-align);
 }
