@@ -184,6 +184,7 @@ ul.row {
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
+	margin: var(--section-tagline-margin);
 }
 
 /********** OTHERS **********/
@@ -195,4 +196,14 @@ ul.row {
 
 .footer {
 	padding: var(--footer-padding);
+}
+
+.footer-copyright {
+	margin: 0;
+	font-size: var(--font-size-small);
+	color: var(--text-color);
+}
+
+.footer ul {
+	text-align: right;
 }
