@@ -216,6 +216,10 @@ ul.row {
 	padding: var(--footer-padding);
 }
 
+.footer-address {
+	color: var(--text-color);
+}
+
 .footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
@@ -224,4 +228,12 @@ ul.row {
 
 .footer ul {
 	text-align: right;
+}
+
+.social-link {
+	display: block;
+}
+
+.social-link > svg {
+	fill: var(--text-color);
 }
